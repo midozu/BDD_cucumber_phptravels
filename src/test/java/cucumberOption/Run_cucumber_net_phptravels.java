@@ -7,9 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		//only running --> net.phptravels_Login.feature
-		features = "src/test/java/features/net.phptravels_Login.feature", 
-//		features ="src/test/java/features/",
+		features ="src/test/java/features/",
 		dryRun =false,
 //		tags={"@a"},
 		glue = "stepDefinition", 

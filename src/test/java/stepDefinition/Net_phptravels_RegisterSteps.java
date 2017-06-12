@@ -26,8 +26,8 @@ public class Net_phptravels_RegisterSteps extends AbstractTest {
 	private String lastname = "Thanh";
 	private String validPassword = "123123";
 
-	public Net_phptravels_RegisterSteps(Hooks hooks) {
-		driver = hooks.driver;
+	public Net_phptravels_RegisterSteps(Hooks driver) {
+		this.driver = driver;
 	}
 
 	@When("^I choose the SignUp option from My Account menu$")

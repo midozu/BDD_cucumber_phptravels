@@ -19,8 +19,8 @@ public class Net_phptravels_loginSteps {
 	LogInPage loginPage;
 	MyAccountPage myaccountPage;
 
-	public Net_phptravels_loginSteps(Hooks hooks) {
-		driver = hooks.driver;
+	public Net_phptravels_loginSteps(Hooks driver) {
+		this.driver = driver;
 	}
 
 	@When("^I choose the Login option from My Account menu$")
